@@ -73,10 +73,6 @@ while True:
                 # Update and display high score if beaten
                 if attempts < high_score:
                     high_score = attempts
-                    print(
-                        f"Congratulations! You've set a new high score: {high_score} attempt/s!"
-                    )
-                print()
                 break
 
         except ValueError:
@@ -100,3 +96,4 @@ while True:
             exit()
         else:
             print("Invalid input. Please enter Yes or No.")
+
