@@ -25,7 +25,7 @@ while True:
     # Guessing loop
     while True:
         print()
-        user_input = input("Guess a number (type 'quit' to exit): ")
+        user_input = input("Guess a number from (1-50) (type 'quit' to exit): ")
 
         # Check for quitting
         if user_input.lower() == "quit":
@@ -41,7 +41,7 @@ while True:
 
             # Check if input is within range
             if user_input > 50 or user_input < 1:
-                print("Your guess is outside the range of numbers. Please try again.")
+                print("Your guess is outside the range of numbers (1-50). Please try again.")
                 print()
             elif user_input > num:
                 if user_input - num <= 5:
