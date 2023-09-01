@@ -25,7 +25,7 @@ while True:
     # Guessing loop
     while True:
         print()
-        user_input = input("Guess a number from (1-50) (type 'quit' to exit): ")
+        user_input = input("Guess a number from 1-50 (type 'quit' to exit): ")
 
         # Check for quitting
         if user_input.lower() == "quit":
